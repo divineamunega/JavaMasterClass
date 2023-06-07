@@ -29,5 +29,14 @@ public class FirstClass {
         String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
         System.out.println(s);
 
+        double myValue1 = 20.00;
+        double myValue2 = 80.00;
+        double ans = (100 * (myValue2 + myValue1)) % 40.0;
+        boolean isRemainder0 = ans == 0;
+        System.out.println(isRemainder0);
+
+        if(!isRemainder0){
+            System.out.println("got some remainder");
+        }
     }
 }
